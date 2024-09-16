@@ -2,122 +2,34 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Zivilgesellschaftliche Akteur\*innen stehen vor der Herausforderung, die wachsende Menge an Online-Inhalten, mittels derer demokratiefeindliche Bewegungen kommunizieren, zu erfassen und zu analysieren. Nur auf Basis solcher Analysen können zivilgesellschaftliche Strategien des Reagierens und der Prävention entwickelt werden. Aktuelle Ansätze sind größtenteils manuell und daher nicht skalierbar. Die akademische Forschung entwickelt zwar algorithmische Prototypen, die jedoch bisher kaum bis gar nicht in praxisorientierte, nutzbare Technologien übertragen werden.
 
-[Link to another page](./another-page.html).
+Unser Hauptziel ist die Schaffung einer Open-Source-Technologie, die in der Lage ist, die Online-Plattform Telegram, welche eine zentrale Rolle bei der Verbreitung von Verschwörungstheorien im deutschsprachigen Raum einnimmt, effizient und systematisch dahinghehend zu analysieren. Die Lösung baut auf der Open-Source Software Teledash auf, welche bereits das Herunterladen und Durchsuchen großer Datensätze aus Telegram ermöglicht. Neben der Integration eines von uns trainierten Modells zur Erkennung verschwörungstheoretischer Texte werden wir die Funktionalität um multimodale Inhaltsanalysen, mit Fokus auf Text-Bild-Material, erweitern. Zudem werden wir ein System für Feedback von Benutzer\*innen konzipieren und integrieren, um die Modelle kontinuierlich zu verbessern und die zivilgesellschaftlichen Stakeholder in die Verbesserung der Technologie transparent miteinzubeziehen.
 
-There should be whitespace between paragraphs.
+Unsere Arbeit transferiert jüngste Forschungsergebnisse des Teams an der [HTW Berlin](https://www.htw-berlin.de/) im Bereich der Erkennung von verschwörungstheoretischen Inhalten und Mobilisierungsaufrufen in Technologien, die zivilgesellschaftlichen Akteur\*innen zur Verfügung gestellt werden. Der Praxispartner [democ e. V.](https://democ.de/) ist regelmäßige Anlaufstelle für zivilgesellschaftliche Anfragen zur Unterstützung bei Analysen von Telegram-Kommunikation.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## Projektlaufzeit
 
-# Header 1
+01.06.2024 bis 30.11.2025
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Mittelgeber
 
-## Header 2
+[Bundesministerium für Bildung und Forschung (BMBF)](https://www.bmbf.de/)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Förderprogramm
 
-### Header 3
+[DATIpilot](https://www.bmbf.de/bmbf/de/forschung/datipilot/datipilot_node.html)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## Projektteam
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+- Prof. Dr. Helena Mihaljevic (HTW Berlin)
+- Milena Pustet (HTW Berlin)
+- Elisabeth Steffen (HTW Berlin)
+- Grischa Stanjek (democ)
+- Yannis Illies (democ)
+- Karolin Schwarz (democ)
 
-#### Header 4
+## Kooperationspartner
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+[![HTW Berlin](/assets/images/logos/htw-berlin.jpg)](https://htw-berlin.de)
+[![democ](/assets/images/logos/democ.png)](https://democ.de)
